@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>My portfolio site</title>
+  </head>
+<body>
+  <nav class="fixed-top">
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="home-container">
+      <article>
+        <p class="text-center">Hello, nice to meet you!</p>
+        <h1 class="text-center">I am Edalí, web developer</h1>
+      </article>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="text-center my-4">About me</h2>
+        <p class="text-center">I am passionate about web technologies.</p>
+        <p class="text-center">I enjoy turning complex problems
+           into simple, beautiful and intuitive designs.</p>
+        <p class="text-center">When I'm not coding, you'll find me reading, writing or exercising
+           in the park. </p>
+        <div class="image-home text-center mt-5">
+          <img src="images/about.jpg" alt="image-about" class="rounded-circle">
+        </div>
+     </div>
+   </section>
+
+   <section id="projects">
+     <article class="home-container">
+       <h1 class="text-center">My Prtfolio</h1>
+     </article>
+   </section>
+
+   <section id="home">
+      <h2>Projects</h2>
+
+      <div class="container">
+
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top height" src="images/gallery.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Interior Design</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top height" src="images/tech-company.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Tech in Berlin</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top height" src="images/medicine.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Medicine in USA</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="d-flex">
+
+      <div class="container m-auto row">
+
+        <div id="form-container" class="col-sm-12 mb-4">
+          <h2 class="text-center">Contact</h2>
+            <form id="contact-form" method="post" action="#" class="contact-form">
+              <div class="controls">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="name">Your first name *</label>
+                      <input type="text" name="name" placeholder="Enter your first name" required="required" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="surname">Your last name *</label>
+                      <input type="text" name="surname" placeholder="Enter your  last name" required="required" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="surname">Your email *</label>
+                  <input type="email" name="email" placeholder="Enter your  email" required="required" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="surname">Your message for us *</label>
+                  <textarea rows="4" name="message" placeholder="Enter your message" required="required" class="form-control"></textarea>
+                </div>
+                <div class="text-center">
+                  <input type="submit" name="name" value="Send message" class="btn  mt-4">
+                </div>
+              </div>
+            </form>
+      </section>
+
+<!--  <footer style="font-family: serif;" class="section-inverse">
+          <div class="container">
+            <div class="row copyright">
+              <div class="col-md-3">
+                <p>&copy;2018 Edalí</p>
+              </div>
+
+            </div>
+          </div>
+    </footer>
+-->
+</body>
